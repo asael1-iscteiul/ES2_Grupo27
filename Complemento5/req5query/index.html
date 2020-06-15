@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Page Title</title>
+  <style>
+    body {background-color: black;}
+    h1 {color: white;}
+    p {color: white;}
+    fieldset {color: white}
+  </style>
+</head>  
+<body>
+
+<h1>Covid Spreading</h1>
+
+	<p>Selecione abaixo o que deseja procurar:</p>
+
+
+<fieldset>
+	<select name="assunto" id="assunto">
+		<option value="none"></option>
+		<option value="internamentos">Internamentos</option>
+		<option value="infecoes">Infeções</option>
+		<option value="testes">Testes</option>
+	</select>
+
+
+	</fieldset>
+
+	
+	
+	<p>Selecione a região:</p>
+<fieldset>
+<div>
+  <input type="radio" id="centro" name="regiao" value="centro"
+         checked>
+  <label for="centro">Centro</label>
+</div>
+
+<div>
+  <input type="radio" id="lisboa" name="regiao" value="lisboa">
+  <label for="lisboa">Lisboa</label>
+</div>
+
+<div>
+  <input type="radio" id="norte" name="regiao" value="norte">
+  <label for="norte">Norte</label>
+</div>
+
+<div>
+  <input type="radio" id="alentejo" name="regiao" value="alentejo">
+  <label for="alentejo">Alentejo</label>
+</div>
+
+<div>
+  <input type="radio" id="algarve" name="regiao" value="algarve">
+  <label for="algarve">Algarve</label>
+</div>
+		
+	</fieldset>
+
+		
+		
+
+	<script id ="1" >
+	
+			function GetSelectedOption(){
+				var e = document.getElementById("assunto");
+				var result = e.options[e.selectedIndex].value;
+				console.log( 'valoe do res : ' +result);
+				return result;
+			}
+
+</script>
+
+	<script id ="2" >
+	function GetSelectedRegiao(){
+		var radios = document.getElementsByName('regiao');
+
+		for (var i = 0, length = radios.length; i < length; i++) {
+		  if (radios[i].checked) {
+		    // do whatever you want with the checked radio
+		    console.log( 'yaaaa : ' + radios[i].value);
+
+		    // only one radio can be logically checked, don't check the rest
+		   return radios[i].value;
+		  }
+		}
+	}
+	</script>
+	
+	<script id ="3" >
+	
+	function myFunction(){
+		GetSelectedOption();
+	    GetSelectedRegiao();
+	}
+
+</script>
+
+<br>
+
+<button type="button" onclick="myFunction()">Procurar</button>
+
+	
+</form>
+</body>
+</html>
