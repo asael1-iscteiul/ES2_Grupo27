@@ -39,6 +39,12 @@ do windows.Nesse evento o que vai ser executado é um bat file com o nome de scr
 ser alterados, e se houver mudanças terá que ser gerado um novo jar.
 - Deixo aqui o link para o jar : https://drive.google.com/file/d/1wNpc7mpoH3I-yPpS-SYHZCZp4k49d_ac/view?usp=sharing
 
+## Requisito 3
+- Neste requisito as funcionalidades requeridas estão todas implementadas, o programa vai buscar os pdf a uma diretoria e posteriromente faço a extração dos metadados que são pedidos nesse ponto: Titulo, Nome do jornal, Data da publicação e os autores.
+- Quando terminado esse processo, é gerado uma tabela html com os campos preenchidos com os dados provenientes dos pdfs.
+- Por fim, é associado ao titulo o hiperlink respetivo de modo a que o utilizador possa aceder ao ficheiro pdf que dejesa.
+- Deixo junto o link, é necessario ter os pdf na mesma pasta que o conteudo apos descompactar : https://drive.google.com/file/d/1TmVMKHMr2uhrYb9zGkbKjCgVDL4lQjbz/view?usp=sharing
+
 ## Requisito 4
 - Todas as funcionalidades pedidas na sua generalidade estão cumpridas, a unica coisa que não esta a funcionar é os VisualDataWeb links, tentei de varias maneiras e não consegui gerar um hyperlink que pudesse depois usar no website, conseguia vizualizar no browser mas depois pelo link ja não dava, então achei por bem simplesmente deixar la os links de tentativa ao inves simplesmente de null.
 
