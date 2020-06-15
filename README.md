@@ -8,6 +8,8 @@
 - 82421 Andreia Fernandes -> Requisito 5
 - 82511 Joana Moutinho -> Requisito 6
 
+## Requisito 1
+-As funcionalidades do site wordpress que não dependiam dos outros requisitos estão implementadas. Não foi possível colocar o requisito 2 a funcionar no site wordpress (explicado em baixo) e requisito 6 (aba do menu Covid Spread, também explicado mais em baixo em "requisito )
 ## Requisito 2
 - Todos as funcionalidades estão funcionais, no entanto foram apenas feitas para
 a sample page fornecida pelo wordpress, pois ocorreram vários erros 
