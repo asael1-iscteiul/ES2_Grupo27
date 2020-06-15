@@ -10,7 +10,7 @@
 - Por fim vamos realizar o comando "docker load < complement1.tar" e o comando "docker load < compl1Mysql.tar";
 - Para aceder ao site realize o comando para aceder ao ip que o docker utiliza: basta realizar o comando "docker-machine ip" cole o ip(numeros formato xxx.xxx.xxx.xxx);
 - Agora aceda a um browser (por exemplo: google chrome) cole o que copiou anteriormente e acrescente ":8000" (realizar ctr-v:8000) deve ficar com algo semelhante a 192.168.99.100:8000;
-- E já está! Obrigada 
+- E já está! Obrigada. 
 
 
 
