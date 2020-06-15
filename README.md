@@ -5,9 +5,12 @@
 - Criar/Escolher uma pasta para colocar tudo o que diz respeito à aplicação (descrito nos passos seguintes);
 - Colar os ficheiros que se encontram na pasta "Instalação" dentro da pen, dentro da pasta escolhida no seu computador;
 - Abrir a aplicação docker e mudar de diretoria para a diretoria da pasta escolhida: Utilize o comando "cd "caminho até à pasta do seu computador com os ficheiros para a instalação da aplicação";
-- De sequida realizar o comando "docker build -t wordpress:5.4.1 ."
-- De seguida realizar o comando "docker-compose up -d"
-- Por fim vamos realizar o 
+- De sequida realizar o comando "docker build -t wordpress:5.4.1 .";
+- De seguida realizar o comando "docker-compose up -d";
+- Por fim vamos realizar o comando "docker load < complement1.tar" e o comando "docker load < compl1Mysql.tar";
+- Para aceder ao site realize o comando para aceder ao ip que o docker utiliza: basta realizar o comando "docker-machine ip" cole o ip(numeros formato xxx.xxx.xxx.xxx);
+- Agora aceda a um browser (por exemplo: google chrome) cole o que copiou anteriormente e acrescente ":8000" (realizar ctr-v:8000) deve ficar com algo semelhante a 192.168.99.100:8000;
+- E já está! Obrigada 
 
 
 
@@ -20,7 +23,8 @@
 - 82511 Joana Moutinho -> Requisito 6
 
 ## Requisito 1
-- As funcionalidades do site wordpress que não dependiam dos outros requisitos estão implementadas. Não foi possível colocar o requisito 2 a funcionar no site wordpress (explicado em baixo) e requisito 6 (aba do menu Covid Spread, também explicado mais em baixo em "requisito )
+- As funcionalidades do site wordpress que não dependiam dos outros requisitos estão implementadas. Não foi possível colocar nenhum dos requisitos no site, não conseguimos realizar a integração do java no Wordpress.
+
 ## Requisito 2
 - Todos as funcionalidades estão funcionais, no entanto foram apenas feitas para
 a sample page fornecida pelo wordpress, pois ocorreram vários erros 
