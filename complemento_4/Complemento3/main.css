@@ -1,0 +1,42 @@
+body{
+  background-image: url("imagem.jpg"); 
+  height: 60%; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+h1 {
+	position: absolute;
+    top : 1%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+table {
+	margin-top:50px ;
+    margin-left:10px ;
+	flex: 0 0 80%;
+	bordeer-collapse : collapse;
+	min-height : 70vh;
+	border-radius : 20px;
+	align-items : center;
+    justify-content: center;
+    box-shadow : 5px 10px #2F4F4F;
+
+}
+
+table th {
+    text-align : center;	
+	background-color : #CD853F;
+	color : #FFF;
+	padding : 4px 30px 4px 8px;
+}
+
+table td {
+    border : 2px solid #C0C0C0;
+    padding : 4px 8px;
+	background-color : #F5F5F5;
+}
+
