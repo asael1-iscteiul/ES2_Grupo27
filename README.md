@@ -22,6 +22,9 @@ do windows.Nesse evento o que vai ser executado é um bat file com o nome de scr
 ser alterados, e se houver mudanças terá que ser gerado um novo jar.
 - Deixo aqui o link para o jar : https://drive.google.com/file/d/1wNpc7mpoH3I-yPpS-SYHZCZp4k49d_ac/view?usp=sharing
 
+## Requisito 4
+- Todas as funcionalidades pedidas na sua generalidade estão cumpridas, a unica coisa que não esta a funcionar é os VisualDataWeb links, tentei de varias maneiras e não consegui gerar um hyperlink que pudesse depois usar no website, conseguia vizualizar no browser mas depois pelo link ja não dava, então achei por bem simplesmente deixar la os links de tentativa ao inves simplesmente de null.
+
 ## Requisito 6 
 - Gerar HTML: Foi gerado um HTML com 2 colunas (1ª coluna ficheiro antigo, 2ª coluna ficheiro novo, com as devidas diferenças realçadas). Não consegui gerar o HTML com o Tomcat Server, pois quando o tentei fazer noutra versão do Eclipse, o projeto todo começou a dar          erros,    por isso decidi ficar com o que já tinha em vez de destruir tudo
 - Ligar ao git e obter 2 versões anteriores do ficheiro covid19spreading.rdf: O código está todo nas classes disponibilizadas no git, acontece que é possível clonar o repositório, mas quando chega à parte de ir        buscar o ficheiro o mesmo não foi possível, revi o código e não cheguei a nenhuma conclusão sobre o que poderia estar mal
