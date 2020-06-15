@@ -45,7 +45,7 @@ ser alterados, e se houver mudanças terá que ser gerado um novo jar.
 ## Requisito 5
 - Neste requisito a funcionalidade que permite aceder aos dados provenientes do HTML form não foi corretamente implementada porque não consegui arranjar forma de ler e escrever no HTML form.
 As funcionalidades que obtem o ficheiro covid19spreading.rdf do repositório git está funcional, tal como a de criar um HTML form e procurar um exemplo de querie neste ficheiro.
-a funcionalidade de procurar informação no ficheiro de acordo com os valores dados está criada com respostas de exemplo  destes valores (testes ; algarve)
+A funcionalidade de procurar informação no ficheiro de acordo com os valores dados está criada com respostas de exemplo  destes valores (ex: testes ; algarve) e tinha como objetivo receber os valores do HTML form e serem usados para fazer essa procura.
 
 
 ## Requisito 6 
