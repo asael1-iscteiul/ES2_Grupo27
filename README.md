@@ -4,7 +4,10 @@
 - Deve ter instalada a aplicaçao docker no seu computador, os ficheiros para fazer download encontram-se no site oficial: https://docs.docker.com/get-docker/;
 - Criar/Escolher uma pasta para colocar tudo o que diz respeito à aplicação (descrito nos passos seguintes);
 - Colar os ficheiros que se encontram na pasta "Instalação" dentro da pen, dentro da pasta escolhida no seu computador;
-- Abrir a aplicação docker e mudar de diretoria para a diretoria da pasta escolhida: Utilize o comando "cd "diretoria";
+- Abrir a aplicação docker e mudar de diretoria para a diretoria da pasta escolhida: Utilize o comando "cd "caminho até à pasta do seu computador com os ficheiros para a instalação da aplicação";
+- De sequida realizar o comando "docker build -t wordpress:5.4.1 ."
+- De seguida realizar o comando "docker-compose up -d"
+- Por fim vamos realizar o 
 
 
 
